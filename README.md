@@ -1,5 +1,8 @@
-# A wrapper to upload and download files to s3
+# Code snippets to perform common engineering tasks
+## S3: A snippet to upload and download files to S3
 ### Getting started:
-1. create an AWS account
-2. create a s3 bucket
-3. pip install boto3
+Create an AWS account and a S3 bucket and authenticate following this great medium article:
+[How to Upload And Download Files From AWS S3 Using Python (2022)](https://medium.com/towards-data-science/how-to-upload-and-download-files-from-aws-s3-using-python-2022-4c9b787b15f2)
+```
+pip install boto3
+```
